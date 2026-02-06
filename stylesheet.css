@@ -1,0 +1,39 @@
+form
+{
+    background-color: azure;
+    border: 2px solid black;
+    width: 30%;
+    padding: 2%;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 5%;
+}
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #dedede;
+}
+input
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+button
+{
+    background-color: #1bdbe5;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+#address
+{
+    height: 100px;
+}

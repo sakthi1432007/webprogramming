@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Registration form
+        </title>
+        <link href="stylesheet.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>REGISTRATION FORM</h1>
+        <form onclick="validateForm()">
+            <label id="name">
+                Name:  <input type="text" name="name" placeholder="Enter your name">
+            </label><br>
+            <label id="email">
+                Email:  <input type="email" name="email" placeholder="Enter your E-mail">
+            </label><br>
+            <label id="phonenumber">
+                Phone Number:  <input type="number" name="phonenumber" placeholder="Enter your phonr number">
+            </label><br>
+            <label id="DOB">
+                Date of birth:  <input type="date" name="DOB" placeholder="Enter your date of birth">
+            </label><br>
+            <label id="address">
+                Address:  <input type="text" name="address" placeholder="Enter your address" id="address">
+            </label><br>
+            <label id="password1">
+                Password:  <input type="password" name="password1" placeholder="Enter your password" >
+            </label><br>
+            <label id="password2">
+                Confirm Password:  <input type="password" name="password2" placeholder="Enter your password">
+            </label><br>
+            <button type="button" onclick="validateForm()">submit</button>
+        </form>
+        <script src="registrationscript.js"></script>
+    </body>
+</html>

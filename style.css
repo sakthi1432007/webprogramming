@@ -1,0 +1,28 @@
+#newexpense 
+{
+    border: 2px solid rgb(178, 178, 178);
+    width: 50%;
+    height: 60%;
+    padding:3%;
+    border-radius: 3%;
+    padding-right: 4%;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10%;
+    margin-left: 35%;
+}
+#Description
+{
+    margin-top: 1%;
+    margin-bottom: 15px;
+}
+#Amount
+{
+    margin-top: 1%;
+    margin-bottom: 15px;
+    margin-left: 48%;
+}
+#add_expenses
+{
+    border: 48% solid black;
+   border-radius: 1px;
+}
